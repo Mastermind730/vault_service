@@ -1,0 +1,118 @@
+# Rust
+# Rust
+target/
+**/*.rs.bk
+*.pdb
+Cargo.lock
+
+# Anchor
+.anchor/
+test-ledger/
+.DS_Store
+
+# Node
+node_modules/
+package-lock.json
+yarn.lock
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+logs/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build artifacts
+dist/
+build/
+*.so
+*.dylib
+*.dll
+
+# Keys (NEVER commit these!)
+*.json
+!tsconfig.json
+!package.json
+
+# Backup files
+*.bak
+*~
+
+# MongoDB
+data/
+dump/
+
+# Test artifacts
+.pytest_cache/
+coverage/
+**/*.rs.bk
+*.pdb
+Cargo.lock
+
+# Anchor
+.anchor/
+test-ledger/
+.DS_Store
+
+# Node
+node_modules/
+package-lock.json
+yarn.lock
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+logs/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build artifacts
+dist/
+build/
+*.so
+*.dylib
+*.dll
+
+# Keys (NEVER commit these!)
+*.json
+!tsconfig.json
+!package.json
+!Anchor.toml
+
+# Backup files
+*.bak
+*~
+
+# MongoDB
+data/
+dump/
+
+# Test artifacts
+.pytest_cache/
+coverage/

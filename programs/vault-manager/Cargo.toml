@@ -1,0 +1,23 @@
+[package]
+name = "vault-manager"
+version = "0.1.0"
+description = "Collateral Vault Management System for Perpetual Futures DEX"
+edition = "2021"
+
+[lib]
+crate-type = ["cdylib", "lib"]
+name = "vault_manager"
+
+[features]
+no-entrypoint = []
+no-idl = []
+no-log-ix-name = []
+cpi = ["no-entrypoint"]
+default = []
+
+[dependencies]
+anchor-lang = "0.29.0"
+anchor-spl = "0.29.0"
+solana-program = "1.17"
+spl-token = "4.0"
+spl-associated-token-account = "2.2"
